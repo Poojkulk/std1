@@ -10,7 +10,6 @@ public class ComplexNumber{
 	
    public static ComplexNumber sum(ComplexNumber c1, ComplexNumber c2)
    {
-	//creating a temporary complex number to hold the sum of two numbers
         ComplexNumber temp = new ComplexNumber(0, 0);
 
         temp.real = c1.real + c2.real;
